@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Sign-up form project</title>
+</head>
+<body>
+    <div class="left-container">
+        <div class="image">
+            <img src="./laptopncoffeebymeghanmosser.jpg" alt="image">
+            <div class="caption">Photo by <span> Meghan Mosser</span> on <span> Unsplash</span> </div>
+        </div>
+        <div class="bg-image">
+            <img src="./Jj-webdvlpr.png" alt="logo">
+        </div>
+     </div>
+
+     <form action="#" method="" class="content-1">
+        <div class="first-content">
+            <p class="content1"> This is not a real online service! You know you need something <br> like this in your life to help you realize your deepest dreams. <br> Sign up <i id="now">now</i> to get started.  <br>  </p>
+            <p class="content2"> You <i id="know"> know </i> you want to. </p>
+        </div>
+
+        <div class="second-content">
+            <h1> Let's do this! </h1>
+            <ul class="required-user-info">
+                <li class="input-box">
+                     <label for="first-name"> FIRST NAME </label> 
+                    <input type="text" placeholder=" " id="first-name" name="first-name" pattern=".*\S.*" required>
+                    <p class="error-message">Must fill in this field</p>   
+                </li>
+                
+                <li class="input-box">
+                    <label for="last-name"> LAST NAME </label> 
+                   <input type="text" placeholder=" " id="last-name" name="last-name" pattern=".*\S.*" required> 
+                   <p class="error-message">Must fill in this field</p>   
+               </li>
+
+               <li class="input-box">
+                    <label for="email"> EMAIL </label> 
+                    <input type="email" placeholder=" " id="email" name="email" pattern=".*\S.*" required>   
+                    <p class="error-message2">Please enter a valid email address</p>   
+                </li>
+
+                <li class="input-box">
+                    <label for="phone-number"> PHONE NUMBER </label> 
+                    <input type="number" placeholder=" " id="phone-number" name="phone-number" required>
+                    <p class="error-message3">Please enter a valid phone number</p>     
+                </li>
+
+                <li class="input-box">
+                    <label for="password"> PASSWORD </label> 
+                    <input type="password" placeholder=" " id="password" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2, 3}$" name="password" required>   
+                    <p class="error-message4">Password do not match</p>  
+                </li>
+
+                <li class="input-box">
+                    <label for="password2">CONFIRM PASSWORD</label> 
+                    <input type="password" placeholder=" " id="password2" pattern="12345" name="confirm-password" required>   
+                    <p class="error-message4">Password do not match</p>  
+                </li>
+            </ul>
+        </div>
+
+        <div class="third-content">
+            <div class="submit-button">
+                <button type="submit"> Create Account </button>
+                 <p> Already have an account ? <span> Log in </span> </p>
+            </div>     
+        </div>
+    </form>
+</body>
+</html>
